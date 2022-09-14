@@ -107,4 +107,5 @@ input:valid {
 
 input:focus {
   border: 2px solid rgb(27, 190, 255);
+  outline: 0;
 }
