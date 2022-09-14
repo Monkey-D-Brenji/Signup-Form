@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(236, 236, 236, 0.774);
+}
+
+input,
+label {
+  display: block;
+  width: 300px;
+  height: 30px;
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+input {
+  background-color: rgba(236, 236, 236, 0.89);
+  padding-left: 5px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.left {
+  background: url(images/backgroundimages.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+.right {
+  width: 60vw;
+  background-color: rgb(17, 16, 16);
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top,
+.right-middle,
+.right-bottom {
+  flex-grow: 1;
+  padding-left: 80px;
+}
+
+.right-top {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.right-bottom {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  font-size: 1.3rem;
+}
+
+.right-top div {
+  font-size: 1.5rem;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.right-middle {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(14, 13, 13);
+  box-shadow: 0 1px 3px 1px rgb(26, 25, 25);
+  padding-bottom: 30px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+button {
+  color: rgb(238, 231, 231);
+  background-color: rgb(109, 177, 53);
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+span {
+  font-style: italic;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:focus {
+  border: 2px solid rgb(27, 190, 255);
+}
