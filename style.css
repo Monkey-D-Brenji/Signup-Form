@@ -23,7 +23,7 @@ input {
 .container {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: max(100%, 100vh);
   margin: 0 auto;
 }
 
@@ -112,4 +112,5 @@ input:focus {
 
 form {
   height: 100vh;
+  overflow: auto;
 }
